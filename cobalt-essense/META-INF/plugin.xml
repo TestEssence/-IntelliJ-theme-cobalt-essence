@@ -1,0 +1,35 @@
+<idea-plugin>
+  <id>testessence.cobalt-essense</id>
+  <name>cobalt-essense</name>
+  <version>1.0.0</version>
+  <vendor email="info@testessence.com" url="https://github.com/TestEssence/intelliJ-theme-cobalt-essence">Test Essence</vendor>
+  <!-- Minimum and maximum build of IDE compatible with the plugin -->
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="191.0"/>
+
+  <description><![CDATA[
+      A custom Cobalt theme Created by TestEssence.<br>
+      <em>This is a custom-revised version, inspired by `Cobalt9`.</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <ul>
+        <li>Support JSON, YAML, Markdown, HTML, XML Syntax Coloring.</li>
+      </ul>
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="7431a3c4-eaed-4987-8739-89b8d384ac1a" path="/cobalt-essense.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
